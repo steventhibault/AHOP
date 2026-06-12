@@ -17,7 +17,7 @@ Open `index.html` in a web browser. No build process, database, or server is req
 
 ## Updating the menu
 
-Edit `menu-data.js`. Menu categories, descriptions, and prices are intentionally stored in that single file so updates are easy to make.
+Edit `menu-data.js`. This is the only file that needs to be changed when menu items, descriptions, or prices are updated. The on-page menu and the PDF download are both generated from that file.
 
 ## Updating business information
 
@@ -36,7 +36,7 @@ Existing AHOP logo and restaurant photography are organized in `assets/images/`.
 
 ## Menu PDF
 
-The existing downloadable menu PDF is stored at `assets/docs/ahop-menu.pdf`. Replace that PDF whenever the printable version changes.
+The **Download Menu PDF** button creates a current printable PDF directly from `menu-data.js`. There is no separate PDF file to update.
 
 ## Custom domain
 

@@ -1,10 +1,5 @@
-/*
-  AHOP MENU DATA
-  -----------------------------
-  Update menu items, descriptions, and prices here.
-  The website automatically renders this content into the menu section.
-*/
-window.AHOP_MENU = [
+// Edit this file when the menu changes. The website and PDF download both use it.
+window.ahopMenu = [
   {
     category: "Pizza",
     note: "Pizza prices are shown as small / large unless noted otherwise.",
@@ -27,7 +22,7 @@ window.AHOP_MENU = [
       { name: "Vegan Cheese", price: "$2.99 / $3.99" },
       { name: "Alfredo Sauce", price: "$1.99 / $2.99" }
     ],
-    extras: "Toppings: Green peppers, onions, mushrooms, black olives, jalapeño, pineapple, eggplant, broccoli, spinach, garlic, feta, meatball, pepperoni, sausage, hamburger, ham, bacon, salami."
+    extras: "Toppings: Green peppers, onions, mushrooms, black olives, jalapeno, pineapple, eggplant, broccoli, spinach, garlic, feta, meatball, pepperoni, sausage, hamburger, ham, bacon, salami."
   },
   {
     category: "Pasta",
@@ -72,7 +67,7 @@ window.AHOP_MENU = [
       { name: "Sausage Bomb", price: "$12.99" },
       { name: "Chicken Bomb", price: "$12.99" },
       { name: "Steak Bomb", price: "$12.99" },
-      { name: "The “A” Bomb", price: "$13.99" },
+      { name: "The A Bomb", price: "$13.99" },
       { name: "Chicken Tender Sub", price: "$11.49" },
       { name: "Chicken Parm.", price: "$11.99" },
       { name: "Pastrami", price: "$12.99" },

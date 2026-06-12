@@ -80,6 +80,14 @@
           <a class="button button-primary" href="https://www.clover.com/online-ordering/arundel-house-of-pizza-arundel" target="_blank" rel="noopener">Order Online <span aria-hidden="true">→</span></a>
           <a class="button button-secondary" href="#menu">Explore the Menu</a>
         </div>
+        <a class="google-rating" href="https://www.google.com/maps/search/?api=1&query=Arundel+House+of+Pizza+1369+Portland+Road+Arundel+ME+04046" target="_blank" rel="noopener" aria-label="See Arundel House of Pizza reviews on Google Maps">
+          <span class="google-rating-score">4.7</span>
+          <span class="google-rating-copy">
+            <span class="google-rating-stars" aria-hidden="true">★★★★★</span>
+            <strong>Google Reviews</strong>
+          </span>
+          <span class="google-rating-link">See what locals are saying <span aria-hidden="true">→</span></span>
+        </a>
         <div class="hero-details" aria-label="Restaurant details">
           <div>
             <span class="detail-label">Open</span>
@@ -180,7 +188,7 @@
               <p class="eyebrow">Ready to eat?</p>
               <h3>Order online for carry out or delivery.</h3>
               <a class="button button-primary full" href="https://www.clover.com/online-ordering/arundel-house-of-pizza-arundel" target="_blank" rel="noopener">Order Online</a>
-              <a class="button button-outline full" href="assets/docs/ahop-menu.pdf" target="_blank" rel="noopener">Download Menu PDF</a>
+              <button class="button button-outline full" id="download-menu" type="button">Download Menu PDF</button>
             </div>
           </aside>
           <div class="menu-results" id="menu-results" aria-live="polite"></div>
@@ -267,6 +275,7 @@
   </nav>
 
   <script src="menu-data.js"></script>
+  <script src="menu-pdf.js"></script>
   <script src="script.js"></script>
 </body>
 </html>

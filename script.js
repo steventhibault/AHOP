@@ -1,5 +1,5 @@
 (() => {
-  const menuData = window.AHOP_MENU || [];
+  const menuData = window.ahopMenu || [];
   const tabs = document.getElementById('menu-tabs');
   const results = document.getElementById('menu-results');
   const search = document.getElementById('menu-search');
@@ -85,6 +85,8 @@
     nav.classList.remove('open');
     navToggle.setAttribute('aria-expanded', 'false');
   });
+
+  document.getElementById('download-menu').addEventListener('click', window.ahopMenuPdf.download);
 
   document.getElementById('year').textContent = new Date().getFullYear();
   makeTabs();
